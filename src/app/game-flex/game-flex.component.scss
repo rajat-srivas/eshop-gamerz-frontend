@@ -1,0 +1,64 @@
+section{
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.game-flex {
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+
+  .content {
+    overflow: hidden;
+    height: 410px;
+    position: relative;
+    background-color: #2F4858;
+  }
+
+  .content__text {
+
+    position: absolute;
+    top: 80%;
+    left: 25%;
+    // transform: translate(-50%, -50%);
+    width: 100%;
+    opacity: 0;
+    transition: .2s;
+    a {
+      cursor: pointer;
+      text-decoration: none;
+      color: white;
+      font-weight: 500;
+      font-size: 1.4rem;
+      padding: 0.3rem 0.6rem;
+      background: #8A2387;  /* fallback for old browsers */
+      background: -webkit-linear-gradient(to left, #F27121, #E94057, #8A2387);  /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to left, #F27121, #E94057, #8A2387); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+  }
+
+  img {
+    flex: 1;
+    overflow: hidden;
+
+    position: relative;
+    transition: 0.6s;
+    object-fit: contain;
+    width: 100%;
+    max-height: 410px;
+    z-index: 1;
+    transform: scale(1.1);
+
+  }
+}
+
+.content:hover img {
+  transform: scale(1);
+  -webkit-filter: brightness(50%);
+}
+
+.content:hover .content__text {
+  z-index: 10;
+  opacity: 1;
+}

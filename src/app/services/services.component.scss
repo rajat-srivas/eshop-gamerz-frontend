@@ -1,0 +1,65 @@
+section {
+  width: 100%;
+  height: 56vh;
+  color: #ffe4de;
+  // background-color: #625086;
+  background-color: #d74444;
+  // margin-bottom: 2.5rem;
+  .services {
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1rem;
+  }
+
+  .title__heading {
+    color: black;
+  }
+
+  .services__item {
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 260px;
+    background-color: #d74444;
+    // width: 300px;
+    img {
+      width: 50%;
+      height: 50%;
+      border-radius: 30%;
+    }
+  }
+
+  // .one {
+  // background-color: #D74444;
+  // }
+  // .two {
+  //   background: #625086;  /* fallback for old browsers */
+
+  // }
+
+  // .three {
+  //   background: #BF3D6D;
+
+  // }
+  // .four {
+
+  //   background: #2F4858;  /* fallback for old browsers */
+  // }
+
+  .one:hover {
+    box-shadow: inset 30px 30px 60px #b73a3a, inset -30px -30px 60px #f74e4e;
+  }
+
+  .two:hover {
+    box-shadow: inset 30px 30px 60px #b73a3a, inset -30px -30px 60px #f74e4e;
+  }
+  .three:hover {
+    box-shadow: inset 30px 30px 60px #b73a3a, inset -30px -30px 60px #f74e4e;
+  }
+  .four:hover {
+    box-shadow: inset 30px 30px 60px #b73a3a, inset -30px -30px 60px #f74e4e;
+  }
+}
