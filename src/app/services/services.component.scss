@@ -1,6 +1,6 @@
 section {
   width: 100%;
-  height: 56vh;
+  height: 42vh;
   color: #ffe4de;
   // background-color: #625086;
   background-color: #d74444;
@@ -16,18 +16,23 @@ section {
     color: black;
   }
 
+  .title::before {
+width: 150px;
+height: 17px;
+  }
+
   .services__item {
     border-radius: 5px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 260px;
+    height: 160px;
     background-color: #d74444;
     // width: 300px;
     img {
-      width: 50%;
-      height: 50%;
+      width: 30%;
+      height: 30%;
       border-radius: 30%;
     }
   }

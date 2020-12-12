@@ -1,0 +1,94 @@
+.products {
+  padding-top: 2rem;
+  max-width: 100%;
+  margin: 0 auto;
+  background-color:#fffbfa;
+  padding: 2rem;
+  display: grid;
+  grid-row-gap: 5rem;
+  grid-column-gap: 3.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+}
+
+.game-card {
+  /* max-height: 300px; */
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-images {
+  height: 280px;
+}
+
+.game-images img {
+  height: 100%;
+  object-fit: contain;
+}
+
+.game-details {
+  border-radius: 10px;
+  background: #fffbfa;
+  box-shadow:  20px 20px 60px #d9d5d5,
+               -20px -20px 60px #ffffff;
+
+  padding: 1rem;
+  width: 200px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.game-details .game-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  align-self: center;
+}
+
+.game-details .description {
+  font-size: .8rem;
+  font-weight: 500;
+  align-self: center;
+  text-align: center;
+
+}
+
+.game-details .price {
+  font-size: 3rem;
+  color: #D74444;
+  align-self: center;
+}
+
+.game-details a {
+  text-decoration: none;
+  color: white;
+}
+
+.game-details .cta-add {
+  padding: .8rem 1rem;
+  width: 150px;
+  background-color: #D74444;
+  font-weight: 500;
+  align-self: center;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.game-details .cta-add:hover{
+
+background: #D74444;
+box-shadow: inset 20px 20px 60px #b73a3a,
+            inset -20px -20px 60px #f74e4e;
+}
+
+.game-details .link {
+  color: #625086;
+  align-self: center;
+  font-size: .9rem;
+}
+
