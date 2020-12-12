@@ -43,11 +43,15 @@
 }
 
 .game-details .game-title {
-  font-size: 1.8rem;
+  font-size: 1.4rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 2px;
   align-self: center;
+  position: relative;
+  text-align: center;;
+  background-color: #ffc600;
+  display: block;
 }
 
 .game-details .description {
@@ -59,7 +63,8 @@
 }
 
 .game-details .price {
-  font-size: 3rem;
+  font-size: 2.5rem;
+  font-weight: 600;
   color: #D74444;
   align-self: center;
 }

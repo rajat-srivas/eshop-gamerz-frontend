@@ -1,0 +1,31 @@
+.banner {
+  overflow: hidden;
+  background: url(../../assets/Banner.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 60vh;
+}
+
+.content{
+  justify-content: center;
+  height: 24rem;
+  flex-direction: column;
+  padding-left: 2.6rem;
+  color: #FFE4DE;
+  h3{
+    font-size: 1.8rem;
+    line-height: 60px;
+  }
+  h1 {
+    font-size: 5rem;
+    line-height: 40px;
+  }
+  h4{
+    line-height: 60px;
+    font-size: 1.2rem;
+  }
+
+}
+

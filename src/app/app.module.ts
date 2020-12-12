@@ -11,9 +11,11 @@ import { ServicesComponent } from './services/services.component';
 import { ConsoleComponent } from './console/console.component';
 import { GameFlexComponent } from './game-flex/game-flex.component';
 import { FooterComponent } from './footer/footer.component';
+import { HomeComponent } from './home/home.component';
+import { ProductsComponent } from './products/products.component';
 
 @NgModule({
-  declarations: [								
+  declarations: [										
     AppComponent,
       NavbarComponent,
       SliderComponent,
@@ -22,7 +24,9 @@ import { FooterComponent } from './footer/footer.component';
       ServicesComponent,
       ConsoleComponent,
       GameFlexComponent,
-      FooterComponent
+      FooterComponent,
+      HomeComponent,
+      ProductsComponent
    ],
   imports: [
     BrowserModule,

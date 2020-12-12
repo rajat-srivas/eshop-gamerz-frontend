@@ -1,11 +1,11 @@
 <section>
   <div class="navbar">
-    <h2 class="navbar__logo">Gamerz</h2>
+    <h2 class="navbar__logo" [routerLink]="['']"  >Gamerz</h2>
     <div class="navbar__items">
       <ul>
-        <li>Home</li>
-        <li>Categories</li>
-        <li>Trending</li>
+        <li [routerLink]="['']"  >Home</li>
+        <li [routerLink]="['/products']" [queryParams]="{type:'trending'}"  >Trending</li>
+        <li [routerLink]="['/products']"   >Products</li>
         <li>Support</li>
       </ul>
     </div>

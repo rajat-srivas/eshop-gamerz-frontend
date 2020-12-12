@@ -29,7 +29,7 @@ section {
 }
 
 .navbar__items {
-  flex-basis: 40%;
+  flex-basis: 45%;
 }
 
 .navbar__items ul {
@@ -49,6 +49,10 @@ section {
 .navbar__items ul li:hover{
   color: white;
   background-color: #D74444;
+}
+.navbar__items ul li:focus{
+  border: none;
+  outline: none;
 }
 
 .navbar__account {
