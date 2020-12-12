@@ -5,6 +5,8 @@ body {
   margin:0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
+  background-color: #625086;
+
 
 }
 
@@ -58,4 +60,16 @@ body::-webkit-scrollbar {
   }
   body::-webkit-scrollbar-thumb{
   background: #6649b8;
+  }
+
+
+  input:focus, input:active {
+    border: none;
+    outline: none;
+  }
+
+  h2, span, button:focus, button:active {
+    outline: none;
+    border:none;
+    cursor: pointer;
   }

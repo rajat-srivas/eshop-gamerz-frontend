@@ -6,12 +6,13 @@
         <li [routerLink]="['']"  >Home</li>
         <li [routerLink]="['/products']" [queryParams]="{type:'trending'}"  >Trending</li>
         <li [routerLink]="['/products']"   >Products</li>
-        <li>Support</li>
       </ul>
     </div>
     <div class="navbar__account">
       <img src="../../assets/shopping-cart.svg" alt="" class="navbar__account__basket">
-      <span>My account</span>
+      <span [routerLink]="['/auth']" [queryParams] = "{type:'login'}" routerLinkActive="router-link-active"  >Login</span>
+      <span [routerLink]="['/auth']" [queryParams] = "{type:'signup'}" routerLinkActive="router-link-active"  >SignUp</span>
+
     </div>
   </div>
 </section>

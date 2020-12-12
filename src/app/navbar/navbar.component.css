@@ -8,7 +8,8 @@ section {
 
 }
 .navbar {
-  height: 60px;
+  height: 10vh;
+  max-height: 78px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -29,7 +30,7 @@ section {
 }
 
 .navbar__items {
-  flex-basis: 45%;
+  flex-basis: 35%;
 }
 
 .navbar__items ul {
@@ -64,7 +65,12 @@ section {
 .navbar__account__basket {
   width: 30px;
   height: 30px;
-  margin-right: 2em;
+  margin-right: 1em;
+}
+
+span{
+  cursor: pointer;
+  margin-left: 1rem;
 }
 
 

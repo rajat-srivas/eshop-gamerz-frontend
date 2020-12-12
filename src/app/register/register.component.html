@@ -1,0 +1,43 @@
+<div class="register">
+  <div class="register__image">
+    <h2>Already registered?</h2>
+    <h3>Login back to continue exploring & shopping the best out there</h3>
+    <button [routerLink]="['/auth']" [queryParams] = "{type:'login'}" class="login-singup">LogIn</button>
+    <img src="../../assets/login.svg" alt="">
+  </div>
+  <div class="register__form">
+    <h1>Sign Up</h1>
+    <form action="">
+      <div class="login__email">
+        <i class="fa fa-envelope"></i>
+        <input type="text" placeholder="Email" name="" id="">
+      </div>
+      <div class="login__password">
+        <i class="fa fa-key"></i>
+        <input type="password" placeholder="Password">
+      </div>
+
+      <div class="confirm__password">
+        <i class="fa fa-check-square"></i>
+        <input type="text" placeholder="Confirm Password">
+      </div>
+
+      <div class="login__phone">
+        <i class="fa fa-phone-square"></i>
+        <input type="text" placeholder="Phone Number">
+      </div>
+
+      <div class="login__address">
+        <i class="fa fa-address-book"></i>
+        <input type="text" placeholder="House No/Locality"/>
+      </div>
+
+      <div class="login__address">
+        <i class="fa fa-address-book"></i>
+        <input type="text" placeholder="City, State & Pincode"/>
+      </div>
+
+      <button class=" login-singup cta-login">REGISTER</button>
+    </form>
+  </div>
+</div>

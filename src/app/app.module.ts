@@ -13,9 +13,14 @@ import { GameFlexComponent } from './game-flex/game-flex.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { ProductsComponent } from './products/products.component';
+import { AuthComponent } from './auth/auth.component';
+import { RegisterComponent } from './register/register.component';
+import { LoginComponent } from './login/login.component';
+
+
 
 @NgModule({
-  declarations: [										
+  declarations: [
     AppComponent,
       NavbarComponent,
       SliderComponent,
@@ -26,11 +31,14 @@ import { ProductsComponent } from './products/products.component';
       GameFlexComponent,
       FooterComponent,
       HomeComponent,
-      ProductsComponent
+      ProductsComponent,
+      AuthComponent,
+      RegisterComponent,
+      LoginComponent
    ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

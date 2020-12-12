@@ -1,3 +1,4 @@
+import { AuthComponent } from './auth/auth.component';
 import { ProductsComponent } from './products/products.component';
 import { HomeComponent } from './home/home.component';
 import { NgModule } from '@angular/core';
@@ -13,6 +14,9 @@ const routes: Routes = [
   },
   {
     path: 'products', component: ProductsComponent
+  },
+  {
+    path:'auth', component: AuthComponent
   }
 ];
 

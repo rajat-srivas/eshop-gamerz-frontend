@@ -1,0 +1,25 @@
+<div class="login">
+  <div class="login__image">
+    <h2>New here?</h2>
+    <h3>Register now to explore the best collection of console games handicked for you!</h3>
+    <button [routerLink]="['/auth']" [queryParams] = "{type:'signup'}" class="login-singup">Sign Up</button>
+    <img src="../../assets/singup.svg" alt="">
+  </div>
+  <div class="login__form">
+    <h1>Sign In</h1>
+    <form action="">
+      <div class="login__email">
+        <i class="fa fa-envelope"></i>
+        <input type="text" placeholder="Email" name="" id="">
+      </div>
+      <div class="login__password">
+        <i class="fa fa-key"></i>
+        <input type="password" placeholder="Password">
+      </div>
+      <button class=" login-singup cta-login">LOGIN</button>
+
+
+      <span>Forgot Password ?</span>
+    </form>
+  </div>
+</div>
